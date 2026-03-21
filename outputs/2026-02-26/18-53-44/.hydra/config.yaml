@@ -1,0 +1,38 @@
+experiment_name: conjecturer_prover_v1
+seed: 42
+dataset:
+  path: data/conjecturer_dataset
+  variables:
+  - A
+  - B
+  - C
+  - D
+  - E
+  conjectures:
+  - A -> A
+  - B -> B
+  - C -> C
+  - D -> D
+  - E -> E
+  - (B -> A) -> (C -> B) -> C -> A
+  - (B -> E) -> (D -> B) -> D -> E
+training:
+  max_episodes: 10000
+  batch_size: 64
+  replay_buffer_size: 50000
+env:
+  max_iterations: 10
+  num_node_categories: 3
+  starting_challenge: A -> A
+model:
+  body:
+    hidden_dim: 126
+    num_gnn_layers: 4
+    dropout: 0.1
+    learning_rate: 0.0003
+  conjecturer:
+    learning_rate: 0.0003
+    target_difficulty: 1.5
+  prover:
+    learning_rate: 0.001
+    label_smoothing: 0.1

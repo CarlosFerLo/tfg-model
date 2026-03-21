@@ -557,30 +557,6 @@ docs = ["griffe (==1.7.3)", "hippogriffe (==0.2.2)", "mkdocs (==1.6.1)", "mkdocs
 tests = ["beartype (>=0.21.0)", "cloudpickle (>=3.1.1)", "equinox (>=0.13.1)", "ipython (>=8.37.0)", "jax (>=0.9.0.1)", "mlx[cpu] (>=0.29.1)", "numpy", "pytest (>=8.4.2)", "pytest-asyncio (>=1.2.0)", "tensorflow (>=2.18.1)", "typeguard (==2.13.3)"]
 
 [[package]]
-name = "jraphx"
-version = "0.0.4"
-description = "Graph Neural Networks with JAX/NNX"
-optional = false
-python-versions = ">=3.11"
-files = [
-    {file = "jraphx-0.0.4-py3-none-any.whl", hash = "sha256:730f77191817853ad9ce19009bb6a8452a9c30d20643e72f1bbdbbb4ae5322e7"},
-    {file = "jraphx-0.0.4.tar.gz", hash = "sha256:84a5a2222ee984de68e1d4f5677a971d9c01d48c129ceb4637b20fd0a3b11b7b"},
-]
-
-[package.dependencies]
-flax = ">=0.12.0"
-jax = ">=0.7.0"
-jaxlib = ">=0.7.0"
-numpy = ">=1.21.0"
-
-[package.extras]
-all = ["jraphx[dev,docs,examples,test]"]
-dev = ["black (>=22.0)", "isort (>=5.10)", "mypy (>=0.990)", "pytest (>=7.0)", "pytest-xdist", "ruff (>=0.1.0)"]
-docs = ["sphinx (==5.1.1)", "sphinx-autodoc-typehints (==1.19.2)", "sphinx-copybutton (>=0.5.2)", "sphinx-rtd-theme"]
-examples = ["grain (>=0.2.12)", "optax (>=0.2.5)", "torch-geometric (>=2.0.0)"]
-test = ["optax (>=0.2.5)", "pytest (>=7.0)", "pytest-xdist"]
-
-[[package]]
 name = "markdown-it-py"
 version = "4.0.0"
 description = "Python port of markdown-it. Markdown parsing, done right!"
@@ -1857,4 +1833,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<4.0"
-content-hash = "bdea73b85fc6fd24d70617fc37984b37bd55cfee521096a4d33f5d437f700839"
+content-hash = "2bd589fd6338fa79adc2246e3106d8613d125ac18d036785537c2de48a0d63c1"

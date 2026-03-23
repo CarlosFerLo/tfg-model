@@ -10,25 +10,25 @@ class GNNBody(nnx.Module) :
         
         self.residual = residual
         
-        self.layers = [
+        self.layers = nnx.List([
             GNNLayer(in_dim, hidden_dim, rngs=rngs, activation=activation)
         ] + [
             GNNLayer(hidden_dim, hidden_dim, rngs=rngs, activation=activation)
             for _ in range(layers - 2)
         ] + [
             GNNLayer(hidden_dim, out_dim, rngs=rngs, activation=activation)
-        ]
+        ])
         
-        self.res_proj = [
+        self.res_proj = nnx.List([
             nnx.Linear(in_dim, hidden_dim, rngs=rngs)
         ] + [None] * max(layers - 2, 0) + [
             nnx.Linear(hidden_dim, out_dim, rngs=rngs)
-        ]
+        ])
         
-        self.dropouts = [
+        self.dropouts = nnx.List([
             nnx.Dropout(dropout, rngs=rngs) if dropout > 0.0 else None
             for _ in range(layers-1)
-        ]
+        ])
         
     def __call__(
         self,

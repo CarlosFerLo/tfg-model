@@ -37,6 +37,3 @@ class GNNLayer(nnx.Module) :
         
         combined = jnp.concatenate([self_out, in_agg, out_agg], axis=-1)
         return self.activation(self.combine(combined))
-    
-    
-        

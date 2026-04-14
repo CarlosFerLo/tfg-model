@@ -161,27 +161,25 @@ tests = ["freezegun", "pytest", "pytest-cov"]
 
 [[package]]
 name = "implica"
-version = "1.3.1"
+version = "1.3.2"
 description = ""
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "implica-1.3.1-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:d99adda0b8d151c72ec53a4662b48840233ec84b62a1c079cf10f46fc1f0d368"},
-    {file = "implica-1.3.1-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:3b9d7570505c0afb782a30173c446fa833773bcb5ed4ae46f55953ee918a9188"},
-    {file = "implica-1.3.1-cp38-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:a604ac4bff48fa69e0c4d3901e5dc79979ca6ad92566afe4fdb02bc6bb3456e1"},
-    {file = "implica-1.3.1-cp38-abi3-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:384e32a466b1202a8371eb67b48310ad8e938747128f1e9b9343359e5708fa61"},
-    {file = "implica-1.3.1-cp38-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:060d227222f402906ec3cb7aa9025c00bf7c88076dcb00f646ee824e9290691a"},
-    {file = "implica-1.3.1-cp38-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:fa70b43ecd119921e50497ad2ced4bcdd733cc63e82467634e20e6dad4dab6e3"},
-    {file = "implica-1.3.1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:472bfe59e36f6cd3a90ff19a6eccf09c054ab0243261c0472c9300849bfb8f00"},
-    {file = "implica-1.3.1-cp38-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:862616b6a127448c1f58fac44fbf72700272fcc5b276d899c11fbb124de2c1fd"},
-    {file = "implica-1.3.1-cp38-abi3-musllinux_1_2_armv7l.whl", hash = "sha256:ea3e0189759b18a034ac9488d08424f9039bab0ab951ca32f2a67d0c21795d46"},
-    {file = "implica-1.3.1-cp38-abi3-musllinux_1_2_i686.whl", hash = "sha256:1a475918bcf0a9167fcbb29ed474ddfe896d028ed7f99372b18cf7505e237ff5"},
-    {file = "implica-1.3.1-cp38-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:ad6f24dbd76203554beae145166efaf115991b17c191959b76ba7a6296feb319"},
-    {file = "implica-1.3.1-cp38-abi3-win32.whl", hash = "sha256:87bdfd641952fc392ea3e6ddfeb73606501e6183cea037437b5049ef72d670fb"},
-    {file = "implica-1.3.1-cp38-abi3-win_amd64.whl", hash = "sha256:2874f10e1ba3cb069c62731c0f6e9e5f7690ef1b06db99191cb40635a35fdcf2"},
-    {file = "implica-1.3.1-pp311-pypy311_pp73-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:4b17432bbf7586b8d42a3c54b327272385cb68cc37b65054b4cacbb4cbf8ac93"},
-    {file = "implica-1.3.1-pp311-pypy311_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:167eedff9235606f513519d59826b072197ed73788ebbdd1f6a51a4fc17d994f"},
-    {file = "implica-1.3.1.tar.gz", hash = "sha256:3249d57b923b46fc42fcea488229b7bd017fa92ca8a11b9768bd0194764ea55c"},
+    {file = "implica-1.3.2-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:ec63bc4f82e3a2cff4d3dfb5365355125dc29971c6516b6a510ca7c5e285bea0"},
+    {file = "implica-1.3.2-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c7c2ddbd692216481cc483ceae5c8d9654ea59ad24ef9ad421adb5854cc9f88a"},
+    {file = "implica-1.3.2-cp38-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:e560e70ea4b42f0f09402d2b32d2274581fbe4f0ee4d2a1539efde2fb00921c0"},
+    {file = "implica-1.3.2-cp38-abi3-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:a2356bafb9d47ab7fbd7431d219696e0c77eaf8cc7162629e1eceff19e98c47f"},
+    {file = "implica-1.3.2-cp38-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:b511b4604a4247446d8f7c3855a4f74f114d9a37ae5cf75c279a9f42961b17dd"},
+    {file = "implica-1.3.2-cp38-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:5c6e5b56abe3dfba857cac4df0afaff1618cc04ee5b370bcbba7000f44905efa"},
+    {file = "implica-1.3.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:80fa7d5dc6141934b100f87b98ae52f3d1b3e170236ed79e060fac5d8dbf40e6"},
+    {file = "implica-1.3.2-cp38-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:f3d901cfadbbb3140ffcd5b20501bd4d7fa1901f093f9d8d9bc095dbf4e21714"},
+    {file = "implica-1.3.2-cp38-abi3-musllinux_1_2_armv7l.whl", hash = "sha256:b1a3b495d3cc51c90204fdd95baa18bc5e68faccca21c88d7c7878a5ed482638"},
+    {file = "implica-1.3.2-cp38-abi3-musllinux_1_2_i686.whl", hash = "sha256:9393f29b0501a324893742d5e435b458a4eee3fa2c0656064adbbbcf6045569d"},
+    {file = "implica-1.3.2-cp38-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:5b479d0e4a4768485ca5e7c1cf843f373fa903012278e71e702be942639ac8df"},
+    {file = "implica-1.3.2-cp38-abi3-win32.whl", hash = "sha256:f960d6757fb81ad2f071f9cc655bb0a8069ba0ffda7423d9eb77ed3ade226755"},
+    {file = "implica-1.3.2-cp38-abi3-win_amd64.whl", hash = "sha256:27a85d2e4a8f92088eb6c512512e76e0f3841bd41b570f52b58c0adfc42cc6b0"},
+    {file = "implica-1.3.2.tar.gz", hash = "sha256:90017676ea9c887457e89e10e68260def670febc173808c938dacb411556a2e3"},
 ]
 
 [package.extras]
@@ -1199,4 +1197,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11"
-content-hash = "a9f18864bac8a91ea10810dd38d2c2eef0fe4857a720f903ef75295b0a47d0bd"
+content-hash = "e1e3160db6c72e5b04c36cd17fcb4df3cf8cf62af4e228feed84d7e5d41d01d0"
